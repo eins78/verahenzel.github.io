@@ -1,0 +1,153 @@
+body {font-family: Verdana;
+font-weight:lighter;
+font-family:sans-serif}
+
+
+a:link, a:visited {
+  color:black;
+  text-decoration: none;
+text-align: center;
+font-weight:lighter}
+
+li {list-style: none;}
+
+#Kopf {font-size: 30px;
+    text-align: center;
+margin-top: 15%;
+font-weight:normal;
+font-family: Octin Spraypaint Free;}
+
+#Navigation {
+text-align: center;
+font-size: 14px;
+font-weight:lighter;
+
+}
+
+
+
+
+#Beschreibung {font-size: 12px;
+color: grey;
+position:absolute;
+text-align:right}
+
+p1 {text-align: left}
+div4 {margin-top:20px}
+tr,th {border:0;
+font-weight:lighter}
+
+hr {    border: none; 
+    border-top:1px solid #9a9999; 
+    color: #FFFFFF; 
+    background-color: #FFFFFF; 
+    height: 0px;
+    border-top-style:dashed;
+    border-top-color:black;
+    border-top-width:1px
+
+    
+    }
+
+table {
+    
+    border-spacing:0px;
+    border-color: transparent;
+    border-style:none;
+font-family: sans-serif;
+font-size: 15px;
+color: #292929;
+
+    
+}
+
+
+#Überschrift {margin-bottom: 7%;
+text-align: center;
+font-size: 20px;
+}
+
+
+
+p1 {font-family: Octin Spraypaint Free;}
+
+video {margin-bottom: 5%;
+margin-left: 26%}
+
+p5 {font-size: 12px;
+margin-top: 1%}
+
+p7 {color: grey;
+margin-left: 75%;
+font-size: 12px}
+
+p4 {font-size: 8px}
+
+p8 {color: grey;
+margin-left: 21%;
+font-size: 12px}
+
+div.bildbreit {
+  padding: 80px 80px; /* damit der container die höhe des großen bildes annimmt */
+
+  /* .... */
+}
+
+div.bildbreit div {
+  float: left;
+  width: 150px;
+  height: 150px;
+  
+  /* ab hier kann man die abstände
+  und sonstiges der bilder eintragen */
+  margin-left: 12% ;
+    margin-top: 7%;
+}
+
+div.bildbreit img {
+  width: 150px;  /* wir skalieren das große bild auf die kleine größe */
+  height: 150px; /* um verpixelung beim vergößern zu verhindern       */
+}
+
+div.bildbreit img:hover {
+  position: absolute;
+  margin-left: -400px; /* die hälfte des größenunterschiedes der bilder */
+  margin-top: -350px;  /* hier genau so */
+  width: 560px;       /* die weite beim vergrößern */
+  height: 560px;      /* die höhe beim vergrößern */
+}
+    
+
+
+div.bildhoch {
+  padding: 100px 100px; /* damit der container die höhe des großen bildes annimmt */
+  
+ 
+  /* .... */
+}
+
+div.bildhoch div {
+  float: left;
+  width: 200px;
+  height: 280px;
+  
+  /* ab hier kann man die abstände
+  und sonstiges der bilder eintragen */
+  margin-left: 10% ;
+    
+}
+
+div.bildhoch img {
+  width: 200px;  /* wir skalieren das große bild auf die kleine größe */
+  height: 280px; /* um verpixelung beim vergößern zu verhindern       */
+}
+
+div.bildhoch img:hover {
+  position: absolute;
+  margin-left: -100px; /* die hälfte des größenunterschiedes der bilde*/
+  margin-top: -250px;  /* hier genau so */
+  width: 400px;       /* die weite beim vergrößern */
+  height: 560px;      /* die höhe beim vergrößern */
+}
+
+
